@@ -11,7 +11,10 @@ where are elements moved to and from? To make it iterative, think about the
 part of the array each recursive call considers.
 
 ## Runtime Analysis
+//assisted by Aaron Krapes in my understanding
 
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+Since this is still taking the same actions, the complexity is very similar. However, due to the inplace nature of mergeInPlace the complexity of this increases to $\Theta(n^2)$ as it loops through each value within the given section of the overall array, increasing the worst case (see code comment). Due to this we can determine that the runtime is $\Theta(n^2logn)$.
