@@ -80,8 +80,8 @@ function mergelem2(ar1,ar2){
 
 }
 */
-
+/*
 var list = [0,5,4,1,3,5,7,8,4];
 mergesort(list);
 console.log(list);
-
+*/
